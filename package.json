@@ -3,7 +3,11 @@
   "version": "0.0.1",
   "license": "MIT",
   "engines": {
-    "node": ">=18"
+    "node": ">=16"
+  },
+  "scripts": {
+    "build": "scripts/build",
+    "push": "scripts/push"
   },
   "dependencies": {
     "prerender": "^5.20.2",

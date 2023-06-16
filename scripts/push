@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+scripts/build
+docker push bedrockio/prerender:latest
